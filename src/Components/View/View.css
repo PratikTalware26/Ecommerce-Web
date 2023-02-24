@@ -1,0 +1,36 @@
+.game-cards{
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    box-shadow: 4px 4px 2px #ccc;
+    /* background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); */
+}
+.game-cont{
+    display: flex;
+    column-gap: 3vw;
+}
+.img-cont{
+    width: 600px;
+    height: 300px;
+}
+.img-cont img{
+    width: 100%;
+    height: 100%;
+}
+
+.game-desc{
+    display: flex;
+    flex-flow: column;
+    row-gap: 30px;
+}
+
+.game-desc button{
+    width: 150px;
+    padding: 14px;
+}
+.more-detail{
+    padding: 50px 150px;
+}
+.more-detail h3{
+    background: linear-gradient(45deg, #f0000096, #dc281e94);
+}
